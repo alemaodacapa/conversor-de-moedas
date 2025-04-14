@@ -23,4 +23,4 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ---
 
-Feito com 💚 por [Seu Nome](https://github.com/alemaodacapa)
+Feito com 💚 por [Alemaodacapa](https://github.com/alemaodacapa)
