@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de Moedas</h1>
+        <div class="converter">
+            <select id="fromCurrency">
+                <option value="USD">Dólar (USD)</option>
+                <option value="BTC">Bitcoin (BTC)</option>
+            </select>
+            <input type="number" id="amount" placeholder="Valor">
+            <div class="result" id="resultArea">
+                <p>Valor em Reais: <span id="convertedAmount">-</span></p>
+                <p>Cotação atual: <span id="currentRate">-</span></p>
+                <p>Última atualização: <span id="lastUpdate">-</span></p>
+            </div>
+            <button onclick="convertCurrency()">Converter</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
